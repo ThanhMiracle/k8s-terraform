@@ -10,7 +10,7 @@ variable "subscription_id" {
 variable "prefix" {
   description = "Name prefix cho tất cả resource"
   type        = string
-  default     = "docker-vm"
+  default     = "k8s"
 }
 
 variable "location" {
